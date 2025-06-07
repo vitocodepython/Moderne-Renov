@@ -32,8 +32,8 @@ const Hero = () => {
       <div className="relative container mx-auto px-6 py-20">
         <div className="max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Moderne Renov
-            <span className="block text-orange-400">Couvreur - Ravalement de Facade</span>
+          Couvreur
+            <span className="block text-orange-400">Ravalement de Facade</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-2xl leading-relaxed">
