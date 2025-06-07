@@ -53,7 +53,7 @@ const Contact = () => {
               <div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">Email</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  <a href="mailto:contact@modernerenov.fr" className="hover:text-blue-800 transition-colors">
+                  <a href="mailto:modernerenov.pro@gmail.com" className="hover:text-blue-800 transition-colors">
                   modernerenov.pro@gmail.com
                   </a><br />
                   <span className="text-sm text-gray-500">Réponse sous 24h</span>
