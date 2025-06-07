@@ -17,14 +17,16 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center">
+    <section id="home" className="relative min-h-[60vh] md:min-h-screen flex items-center">
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-top bg-no-repeat"
         style={{
           backgroundImage: `url(${import.meta.env.BASE_URL}hero-bg.jpg)`,
+          backgroundPosition: 'top center',
+          backgroundSize: 'cover',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-800/70"></div>
+        <div className="absolute inset-0 bg-black/60"></div>
       </div>
       
       <div className="relative container mx-auto px-6 py-20">
