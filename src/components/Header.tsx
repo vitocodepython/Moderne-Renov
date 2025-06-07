@@ -29,7 +29,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-3">
             <img 
-              src="/public/image.png" 
+              src={`${import.meta.env.BASE_URL}image.png`}
               alt="Moderne Renov Logo" 
               className="h-12 w-auto"
             />

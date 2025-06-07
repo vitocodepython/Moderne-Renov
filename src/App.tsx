@@ -8,29 +8,27 @@ import QuoteForm from './components/QuoteForm';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Merci from './pages/Merci';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <div className="min-h-screen">
-        <Header />
-        <Routes>
-          <Route path="/" element={
-            <>
-              <Hero />
-              <Services />
-              <Portfolio />
-              <About />
-              <QuoteForm />
-              <Contact />
-            </>
-          } />
-          <Route path="/merci" element={<Merci />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <div className="min-h-screen">
+      <Header />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Hero />
+            <Services />
+            <Portfolio />
+            <About />
+            <QuoteForm />
+            <Contact />
+          </>
+        } />
+        <Route path="/merci" element={<Merci />} />
+      </Routes>
+      <Footer />
+    </div>
   );
 }
 

@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-3 cursor-pointer" onClick={() => navigate('/') }>
               <img 
-                src="/public/image.png" 
+                src={`${import.meta.env.BASE_URL}image.png`}
                 alt="Moderne Renov Logo" 
                 className="h-10 w-auto filter brightness-0 invert"
               />

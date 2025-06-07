@@ -22,7 +22,7 @@ const QuoteForm = () => {
           >
             <input type="hidden" name="_subject" value="🧾 Nouveau devis reçu depuis le site Moderne Rénov" />
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value="http://localhost:5173/merci" />
+            <input type="hidden" name="_next" value="https://vitocodepython.github.io/Moderne-Renov/#/merci" />
             <input type="hidden" name="_template" value="table" />
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
